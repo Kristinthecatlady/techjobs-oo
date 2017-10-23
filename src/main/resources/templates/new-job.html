@@ -44,7 +44,7 @@
             <label th:for="positionType">Position Type</label>
             <select th:field="*{positionType}">
                 <option th:each="positionType : *{positionTypes}"
-                        th:value="${positionType}"
+                        th:value="${positionType}"  
                         th:text="${positionType.value}"></option>
             </select>
         </div>
